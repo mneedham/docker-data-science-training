@@ -12,11 +12,6 @@ In this directory, clone the training repository : `git clone https://github.com
 
 You just have to run `docker-compose up`
 
-=== On linux
-
-On linux you can directly run the script `run.sh`, it will download everything you need and also run the `docker-compose up` command for you.
-
-
 == Use the environment
 
 Your Neo4j database is available on your laptop at this url http://localhost:7474/browser with the following login/password -> neo4j / admin
