@@ -1,7 +1,7 @@
 version: '3'
 services:
   training-neo4j:
-    image: neo4j:${NEO4J_VERSION:-latest}
+    image: neo4j:3.5
     container_name: "data-science-training-neo4j"
     volumes:
       - ./plugins:/plugins
@@ -11,7 +11,7 @@ services:
     environment:
       - "NEO4J_ACCEPT_LICENSE_AGREEMENT=yes"
       - "NEO4J_AUTH=neo4j/admin"
-      - "NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*"
+      - "NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*"      
 
   training-jupyter:
     container_name: "data-science-training-jupyter"
@@ -20,5 +20,3 @@ services:
       - ./data-science-training:/home/jovyan
     ports:
       - "8888:8888"
-    
-    
