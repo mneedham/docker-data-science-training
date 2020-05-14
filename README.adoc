@@ -18,4 +18,9 @@ Your Neo4j database is available on your laptop at this url http://localhost:747
 But inside other container (like the jupyter one) your should use `bolt://data-science-training-neo4j`.
 
 Jupyter is available at the following url http://localhost:8888/
-To login, you will need to search the token in the docker logs something. You should see something similar to that : `[I 17:39:57.299 NotebookApp] http://(9d6f11a3c1a1 or 127.0.0.1):8888/?token=04833158d59cd1ac094602f9b097822a904fa285607e1c59`
+To login, you will need to search the token in the docker logs something. You should see something similar to:
+
+[source,text]
+----
+[I 17:39:57.299 NotebookApp] http://(9d6f11a3c1a1 or 127.0.0.1):8888/?token=04833158d59cd1ac094602f9b097822a904fa285607e1c59
+----
