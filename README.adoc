@@ -19,7 +19,7 @@ In this directory, clone the training repository : `git clone https://github.com
 
 ==== Step 2 : Launch docker
 
-You just have to run `docker-compose up`
+Now run `docker-compose up`
 
 == Use the environment
 
