@@ -6,6 +6,13 @@ Make sure you install Docker and https://docs.docker.com/compose/install/[Docker
 
 === On all environment
 
+Clone this repository, by running the following command:
+
+[source,bash]
+----
+git clone https://github.com/mneedham/docker-data-science-training.git
+----
+
 ==== Step 1 : Clone the training repository
 
 In this directory, clone the training repository : `git clone https://github.com/mneedham/gds-data-science-training data-science-training`
