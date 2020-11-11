@@ -20,7 +20,7 @@ In this directory, clone the training repository:
 
 [source,bash]
 ----
-git clone https://github.com/mneedham/gds-data-science-training data-science-training`
+git clone https://github.com/mneedham/gds-data-science-training data-science-training
 ----
 
 ==== Step 2 : Launch docker
