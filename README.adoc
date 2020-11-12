@@ -15,7 +15,7 @@ You just have to run `docker-compose up`
 == Use the environment
 
 Your Neo4j database is available on your laptop at this url http://localhost:7474/browser with the following login/password -> neo4j / admin
-But inside other container (like the jupyter one) your should use `bolt://data-science-training-neo4j`.
+But inside other containers (like the Jupyter one) you should use `bolt://data-science-training-neo4j`.
 
 Jupyter is available at the following url http://localhost:8888/
 To login, you will need to search the token in the docker logs something. You should see something similar to:
