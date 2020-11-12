@@ -1,16 +1,31 @@
 = Docker environment for the data science training
 
+Make sure you install Docker and https://docs.docker.com/compose/install/[Docker Compose^] before following the instructions below.
+
 == Launch the environment
 
 === On all environment
 
+Clone this repository, by running the following command:
+
+[source,bash]
+----
+git clone https://github.com/mneedham/docker-data-science-training.git
+cd docker-data-science-training
+----
+
 ==== Step 1 : Clone the training repository
 
-In this directory, clone the training repository : `git clone https://github.com/mneedham/gds-data-science-training data-science-training`
+In this directory, clone the training repository: 
+
+[source,bash]
+----
+git clone https://github.com/mneedham/gds-data-science-training data-science-training
+----
 
 ==== Step 2 : Launch docker
 
-You just have to run `docker-compose up`
+Now run `docker-compose up`
 
 == Use the environment
 
